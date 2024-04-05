@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+    border-radius: 150px;
+    border: none;
+    background-color: pink;
+}
+
+.esquerda{
+    margin-left: -350px;
+    transform: rotate(90deg);
+}
+
+.cima{
+    margin-top: -350px;
+    transform: rotate(180deg);
+}
+
+.direita{
+    margin-right: -350px;
+    transform: rotate(270deg);
+}
+
+.baixo{
+    margin-bottom: -350px;
+    transform: rotate(360deg);
+}
+
